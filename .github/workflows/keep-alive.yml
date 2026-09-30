@@ -7,4 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping Supabase
-        run: curl https://cihdysrpwurdxnaspmce.supabase.co/rest/v1/ -H 'apikey: sb_publishable_PfihJnmho56scb0I0dd5Aw_P-PUt7Ni'
+        run: |
+          curl https://cihdysrpwurdxnaspmce.supabase.co/rest/v1/ -H "apikey: sb_publishable_PfihJnmho56scb0I0dd5Aw_P-PUt7Ni"
